@@ -1,4 +1,3 @@
-
 fn main() {
     println!("Hello, world!");
     let mut item = "nice";
@@ -7,4 +6,4 @@ fn main() {
 
     item = "Yay";
     println!("{item}");
-} 
+}

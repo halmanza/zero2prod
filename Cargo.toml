@@ -9,6 +9,14 @@ edition = "2021"
 actix-web = "4"
 tokio = { version = "1", features = ["macros", "rt-multi-thread"]}
 
+[lib]
+path = "src/lib.rs"
+
+[[bin]]
+path = "src/main.rs"
+name = "zero2prod"
+
 [dev-dependencies]
+reqwest = "0.11"
 cargo-tarpaulin = "0.25.2"
 cargo-watch = "8.4.0"
